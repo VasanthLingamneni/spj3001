@@ -364,11 +364,11 @@ def main():
         elif option == 'Location' and Review == 'Negative':
             st.write(location.loc[location['Sentiments']== 'Negative'])
         elif option == 'Environment' and Review == 'Positive':
-            st.write(environment.loc[value['Sentiments']== 'Positive'])
+            st.write(environment.loc[environment['Sentiments']== 'Positive'])
         elif option == 'Environment' and Review == 'Neutral':
-            st.write(environment.loc[value['Sentiments']== 'Neutral'])
+            st.write(environment.loc[environment['Sentiments']== 'Neutral'])
         elif option == 'Environment' and Review == 'Negative':
-            st.write(environment.loc[value['Sentiments']== 'Negative'])
+            st.write(environment.loc[environment['Sentiments']== 'Negative'])
     
     else:
         st.write('No Data Found. Pls upload a valid file in the sidebar.')
