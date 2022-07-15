@@ -1,4 +1,4 @@
-#streamlit run "C:\Users\yeosi\Documents\Python MAGES\07 DS106\Capstone\Streamlit\streamlit_app_capstone.py"
+
 
 # Run the relevant libraries
 import pickle
@@ -193,7 +193,7 @@ def convert_df(df):
     return df.to_csv().encode('utf-8')
 
 #Load model
-#model = pickle.load(open(r'C:\Users\yeosi\Documents\Python MAGES\07 DS106\Capstone\Streamlit\lsvc_pipe_model.pkl','rb'))
+
 model = pickle.load(open('lsvc_pipe_model.pkl','rb'))
 
 
@@ -211,7 +211,7 @@ def main():
     st.set_option('deprecation.showPyplotGlobalUse', False)
     #image = Image.open('Logo_IBISBudget_CMJN.png')
     #st.image(image)
-    #st.image(r'C:\Users\yeosi\Documents\Python MAGES\07 DS106\Capstone\Logo_IBISBudget_CMJN')
+ 
 
     # Create user interface on Streamlit
     st.title('ibis Budget Singapore')
