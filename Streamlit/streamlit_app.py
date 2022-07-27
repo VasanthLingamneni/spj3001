@@ -214,9 +214,9 @@ def main():
  
 
     # Create user interface on Streamlit
-    st.title('ibis Budget Singapore')
-    st.subheader('Topic Classification and Sentiment Analysis of Hotel Reviews')
-    st.write('This app can be used to process hotel reviews and assign them to the most appropriate topic using supervised machine learning model. Sentiment analysis will then be done for the reviews to determine the overall sentiment of each topic. You may access the sidebar to upload a .CSV file containing hotel reviews and run the app')
+    st.title('SPJ3001 Summer Project')
+    st.subheader('Sentiment Analysis using Selenium')
+    st.write('This application can be used to process hotel reviews and assign them to the most appropriate topic using machine learning model. Sentiment analysis will then be done for the reviews to determine the overall sentiment of each topic. You may access the sidebar to upload a .CSV file containing hotel reviews and run the app')
 
     # To upload CSV
     with st.sidebar:
